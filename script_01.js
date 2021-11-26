@@ -21,26 +21,45 @@ const person = {
                 function(){
                         return "hey, ich bin " + this.firstName;
                 }
-}
+};
 
-output(person);
-output(person.firstName);
-output(person.familyName);
-output(person.salary[1]);
-output(person.permission);
-output(person.sayHello())
+
+
+// output(person);
+// output(person.firstName);
+// output(person.familyName);
+// output(person.salary[1]);
+// output(person.permission);
+// output(person.sayHello())
 
 
 const txt       = "Ich bin " + person.firstName + " " +
                 person.familyName + " und verdiene " +
                 person.salary[1] + " p.a."
 
-output(txt);
+
+// output(txt);
+
+
+/***** 2. Objekte  ********/
+
+const baikal ={
+        value:"10m",
+        deep:{
+                deeper:{
+                        deepest:"das licht auf 1642m!"
+                }
 
 
 
+        }
 
 
+
+};
+
+output(baikal.value);
+output(baikal.deep.deeper.deepest);
 
 
 
